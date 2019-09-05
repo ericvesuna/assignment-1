@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=divice-width, initial-scale=1.0">
+<title>Vital Partners</title>
+
+<style>
+
+body{
+	margin:0px;
+}
+.header {
+  float: left;
+  padding: 10px;
+}
+
+.navb {
+	display:inline;
+	padding-right: 20px;
+	font-family: serif;
+	color:#808080;
+	font-size: 15px;
+}
+
+.active {
+	color:#8ead2a;
+}
+
+.abtimg{
+	border:8px solid #c9c9c9;
+	margin-left: 10px;
+	width:380px;
+	height:310px;
+	float:right;
+}
+
+.aboutus{
+	width:68%;
+	text-align:left;
+	margin-left: 15%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.abtbnimg{
+	   background: url('images/icon1.png') 144px 12px no-repeat;
+
+}
+
+
+.abtbtn{
+	background-color: #a5cf3c;
+	height:40px;
+	width:180px;
+	border-radius: 6px;
+  text-align: center;
+  color: white;
+  overflow: visible;
+  border:none;
+}
+
+.vitalwrkimg{
+	width:100%;
+	height:520px;
+  font-size: 0px;
+}
+
+.overlap{
+  margin-top: 40px;
+  position: relative;
+}
+
+.imgoverlap{
+  width:100%;
+}
+
+.ovrlptxt{
+  top: 10px;
+  margin-top: 40px;
+  position: absolute;
+  width: 65%;
+  margin-left: 20%;
+  font-size: 22px;
+  text-align: center;
+
+}
+
+
+.ovrlpblg1{
+  position: absolute;
+  top: 200px;
+  float: left;
+  width: 30%;
+  margin-left: 20%;
+  background-color:white; 
+  font-family:serif;
+  text-align:center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.ovrlpblg2{
+  position: absolute;
+  top: 200px;
+  left: 640px;
+  float: left;
+  width: 30%;
+  margin-left: 4%;
+  background-color:white;
+  font-family:serif;
+  text-align:center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+.dmmybnimg{
+     background: url('images/icon4.png') 130px 16px no-repeat;
+     height: 20px;
+     width: 15px;
+
+}
+
+.dmmybtn{
+  background-color: #a5cf3c;
+  height:40px;
+  width:180px;
+  border-radius: 6px;
+  text-align: center;
+  color: white;
+  overflow: visible;
+  border:none;
+}
+
+
+
+
+
+.container{
+	display: flex;
+	width:72%;
+  margin-top: 80px;
+  margin-bottom: 90px;
+	margin-left: 15%;
+
+}
+
+.blg{
+   width:32%;
+   margin: 10px;
+   overflow: auto;
+}
+
+.blgimg{
+
+	width: 290px;
+	height: 190px;
+}
+
+.readmore{
+    
+	height:35px;
+	width:120px;
+	border-radius: 4px;
+    text-align: center;
+    color: #a5cf3c;
+    border-color: #a5cf3c; 
+    background-color:white; 	
+}
+
+.readmoreactive
+ {
+ 	height:35px;
+	width:120px;
+	border-radius: 4px;
+    text-align: center;
+    color: white;
+    border: none; 
+    background-color:#8ead2a; 	
+ }
+
+
+ .abvfooter{
+ 	height:40px;
+	width:180px;
+	border-radius: 4px;
+    text-align: center;
+    color: white;
+    border-color: white; 
+    background-color:#525252;
+    margin-top:32px;
+
+ }
+
+ .footer1{
+ 	background-color:#302f2f;
+ 	width:100%;
+ 	height:630px;
+ }
+
+.logo_con{
+  float: left;
+	width: 47%;
+}
+
+.txt_btn{
+  float: left;
+  width:38%;
+  margin-top:4%;
+  padding-left: 2px;
+}
+
+.ftrbtnimg1{
+   background: url('images/icon7.png') 190px 18px no-repeat;
+}
+
+.ftrbtnimg2{
+  background: url('images/icon6.png') 190px 18px no-repeat;
+}
+
+
+.footer1btn1{
+  background-color: #a5cf3c;
+  height:55px;
+  width:235px;
+  border-radius: 6px;
+  text-align: center;
+  color: white;
+  overflow: visible;
+  border:none;
+  margin-left: 5px;
+  font-size: 14px; 
+}
+
+.footer1btn2{
+  background-color: #a5cf3c;
+  height:55px;
+  width:235px;
+  border-radius: 6px;
+  text-align: center;
+  color: white;
+  overflow: visible;
+  border:none;
+  margin-left: 5px;
+  float:right;
+  font-size: 14px; 
+}
+
+.ftrcontainer{
+  display: flex;
+  width:72%;
+  margin-top: 80px;
+  margin-bottom: 90px;
+  margin-left: 15%;
+}
+
+.ftrdet{
+   width:32%;
+   margin-top: 60px;
+   margin-left: 10px;
+   overflow: auto;
+}
+
+.twthref{
+  font-size:11px;
+  color:#8a8a8a;
+  text-decoration: none;
+}
+
+.copyright{
+  float: left;
+  width:10%;
+  color: #e8e8e8;
+  margin-left: 15%;
+  font-size: 13px;
+  margin-top: 13px;
+
+}
+
+.privpoly{
+  float: left;
+  width: 28%;
+  color: #e8e8e8;
+  margin-left: 10%;
+  font-size: 13px;
+  margin-top: 13px;
+
+}
+
+.followus{
+  float: left;
+  width: 7%;
+  color: #e8e8e8;
+  margin-left: 5%;
+  font-size: 13px;
+  margin-top: 13px;
+}
+
+.followuslogos{
+  float: left;
+  width: 20%;
+  margin-top: 8px;
+}
+</style>
+
+
+
+
+</head>
+<body>
+  
+  <!--logo-->
+  
+  <div class="header" style="width:40%;">
+  	
+     <img src="images/logo.png" alt="logo" style="float:right; height:111px;width:298px;"/>
+    </div>
+
+  <div class="header" style="width:56%;">
+    <p style="text-align:center;font-size:15px;color:#808080;font-family:Comic Sans MS">
+    	<strong><em>Call Us today! (02) 9017 8413</em>
+        &nbsp;<input type="search" style="border:1px solid #d6d6d6;height:30px;width:200px;border-radius:5px;background-image:url('images/top_search.png');background-position:right;background-repeat: no-repeat;">
+	</p>
+
+     <!--navigation bar-->
+  	
+  	<ul style="list-style-type:none;">
+  		<li class="navb active">Home</li>
+  		<li class="navb">Dating Blog</li>
+  		<li class="navb">Who We Help</li>
+  		<li class="navb">Why Vital</li>
+  		<li class="navb">Reviews</li>
+  		<li class="navb">Contact Us</li>
+	</ul>
+	</strong>
+  </div>
+
+  <!-- first image-->
+
+   	<img src="images/hbg3.png" style="width:100%;height:550px;"/>
+
+
+<!--About Us-->
+  
+ <div class="aboutus">
+	<h1 style="font-family:serif;font-size:34px;">About Us</h1>
+    <img src="images/blog_image_1.jpg" class="abtimg"/>	
+	<h2 style="font-family:serif;color:#8a8a8a;">It is a long established fact that a reader will be distracted</h2>
+    
+    <p style="font-family:serif;color:#8a8a8a;"><strong>The point of using Lorem Ipsum is</strong> that is has more-or-less normal buttons of letters, as opposed to using 'Content here, content here', making look like readable English.
+    </p> 
+
+    <p style="font-family:serif;color:#8a8a8a;"><strong>There are many variations of passages of</strong> Lorem Ipsum available, but the majority has suffered alteration in some form
+    </p> 
+
+    <ul style="list-style-image:url(images/arrow1.png);">
+  		<li>2000 years old. Richard Mcclient</li>
+  		<li>Discovered the undoubtable source</li>
+  		<li>Lorem Ipsum dolor sit amet..</li>
+	</ul> 
+
+	<p style="font-family:serif;color:#8a8a8a;">remaining essentially unchanged. It was popularised in the 1960s with the release Letraset sheets containing</p>
+ 
+	<input type="button" value="Contact Us Now!" class="abtbtn abtbnimg">
+</div>
+
+
+<!--How vital works image-->
+
+     <img src="images/hbg4.png" class="vitalwrkimg"/>	
+
+
+
+
+<!--dummy text and image overlapping-->
+  <div class="overlap">
+    <img src="images/hbg6.png" class="imgoverlap">
+     <div class="ovrlptxt">
+       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+     </div>
+
+     <div class="ovrlpblg1">
+     <img src="images/icon2.png" class=""/>
+     
+      <p style="font-family:serif;text-align:center;"><h3>What is lorem ipsum?</h3></p>
+      <p style="font-family:serif;text-align:center;">Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley type and scrambled</p>
+      <p style="font-family:serif;text-align:center;margin-top:10px;"> it is to make a type specimen book. It has survived not only five centuries, but also the leap into we electronic typesetting, remaining essentially unchanged.</p>
+      
+        <input type="button" value="Get Started" class="dmmybtn dmmybnimg">
+    </div>
+
+    <div class="ovrlpblg2">
+      <img src="images/icon2.png" class=""/>
+      <p style="font-family:serif;text-align:center;"><h3>Where does it come?</h3></p>
+      <p style="font-family:serif;text-align:center;">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged popularised.</p>
+      <p style="font-family:serif;text-align:center;margin-top:10px;"> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old number. Is this Richard McClintock?</p>
+
+        <input type="button" value="Get Started" class="dmmybtn dmmybnimg">
+    </div>
+  </div>
+
+
+
+
+<!--What are client say image-->
+   <div>
+     <img src="images/hbg7.png" class="vitalwrkimg">
+   </div>
+
+<!--Blog post-->
+
+<h1 style="text-align:center;font-size:40px;font-family:serif;margin-top:80px;">Our Latest Blog Post</h1>
+
+   <div class="container">
+   
+<!--blog 1-->
+
+   	<div class="blg">
+     
+       <img src="images/user1.png" class="blgimg"/>
+     <div style="overflow: auto;">
+    	<p style="font-family:serif;"><h3>Duis eget leo sit amet orci suscipit lacinia neque</h3></p>
+        <p style="font-family:serif;color:#8a8a8a;">
+         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making over 2000 years old. Richard McClintock,</p>
+
+	     <input type="button" value="Read More" class="readmore"> 
+     </div> 
+    
+   	</div>
+
+<!--blog 2-->
+
+   	<div class="blg">
+   		<img src="images/user2.png" class="blgimg"/>
+   	 <div style="overflow: auto;">
+    	<p style="font-family:serif;color:#8ead2a;"><h3>Duis eget leo sit amet orci suscipit lacinia neque</h3></p>
+        <p style="font-family:serif;color:#8a8a8a;">
+         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making over 2000 years old. Richard McClintock,</p>
+
+	     <input type="button" value="Read More" class="readmoreactive"> 
+     </div>
+   	</div>
+<!--blog 3-->
+
+   	<div class="blg">
+   		<img src="images/user3.png" class="blgimg"/>
+     <div style="overflow: auto;">
+    	<p style="font-family:serif;"><h3>Duis eget leo sit amet orci suscipit lacinia neque</h3></p>
+        <p style="font-family:serif;color:#8a8a8a;">
+         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making over 2000 years old. Richard McClintock,</p>
+
+	     <input type="button" value="Read More" class="readmore"> 
+     </div> 
+
+   	</div>
+
+  </div>
+
+
+<!--above footer simply dummy text -->
+
+<div style="background-color:#636363;width:100%;height:90px;float:left;">
+  <img src="images/icon5.png" style="height:70px;width:auto;margin-left:30%;margin-top:10px;margin-right:20px;float:left;"/> 
+    <h3 style="color:white;font-size:28px;font-family:serif;margin-top:35px;margin-right:20px;float:left;"> Simply dummy text of</h3> 
+    <input type="button" value="Download Now" class="abvfooter">
+
+</div>
+   
+
+<!--footer1-->
+  <div class="footer1">
+    
+<!--logo and contact-->    
+
+    <div class="logo_con"><img src="images/foot_logo.png" style="margin-top:12%;margin-left:31%; height:60px;width:280px;"/>
+    	<h1 style="color:#e8e8e8;margin-left:32%;"><em>Call Us Today! (02) 9017 8413</em> </h1>
+    </div>
+
+<!--Details and button-->
+    
+    <div class="txt_btn"><p style="font-family:serif;color:#8a8a8a;font-size:24px;text-align:center;">Shortcut your search to happiness right now.<br>Live a life without regrets and take action today!</p>
+    
+    
+      <input type="button" value="Book an Appointment " class="footer1btn1 ftrbtnimg1">
+      <input type="button" value="Contact a Consultant " class="footer1btn2 ftrbtnimg2">  
+    </div>
+
+<!--contact info, recent post and recent tweet-->
+
+
+  <div class="ftrcontainer">
+   
+<!--contact info-->
+
+    <div class="ftrdet">
+       <h3 style="color:#e8e8e8;text-align:Left;font-family:serif;"> CONTACT INFO</h3>
+     <div style="overflow: auto;">
+      <p><address style="font-family:serif;color:#8a8a8a;"><strong>4/220 George St, Sydney NSW 2000</strong><br>
+      Phone: (02)9017 8413<br>
+      Email: info@syd.vitalpartners.com.au</address></p>
+        <p style="font-family:serif;color:#8a8a8a;font-size:14px;padding-top:25px;">
+         <strong>Canberra City ACT 2600</strong><br>
+         Phone: (02)9017 8426<br>
+         Email:can@syd.vitalpartners.com.au</p> 
+     </div> 
+    
+    </div>
+
+<!--recent post-->
+
+    <div class="ftrdet">
+        <h3 style="color:#e8e8e8;text-align:Left;font-family:serif;"> RECENT POSTS</h3>
+     <div style="overflow: auto;">   
+       
+       <ul style="list-style-image:url(images/icon8.png);font-family:serif;color:#8a8a8a;text-align:left;">
+          <li style="margin-top:10px;">How to Recover After Bad date</li>
+          <li style="margin-top:10px;">Review|Vital Partners Review</li>
+          <li style="margin-top:10px;">Review|Vital Partners Review</li>
+          <li style="margin-top:10px;">Review|Vital Partners Derek and Julie</li>
+          <li style="margin-top:10px;">7 Rules for a Happy Relationship|Vital Partners Dating Sydney</li>
+       </ul> 
+        
+     </div>
+    </div>
+
+<!--recent tweet-->
+
+    <div class="ftrdet">
+       <h3 style="color:#e8e8e8;text-align:Left;font-family:serif;"> RECENT TWEETS</h3>     
+      <div style="overflow: auto;">
+       <ul style="list-style-image:url(images/icon9.png);font-family:serif;color:#8a8a8a;text-align:left;font-size:13px;">
+          <li>Are you being vulnerable to find love?via offline dating agency Sydney Canberra Vital Partners
+          <footer><a href="" class="twthref">http://t.co/hGGgHEU6lf</a><span style="float:right;font-size:11px;">1week ago</span></footer></li>
+          <br>
+          <li>Ending a relationship? Read why you shouldn't break up by text-offline dating agency Vital Partners Sydney Canberra<br>
+          <footer><a href="" class="twthref">http://t.co/hGGgHEU6lf</a><span style="float:right;font-size:11px;">1week ago</span></footer></li>     
+       </ul> 
+      </div> 
+    </div>
+  </div>
+</div>  
+
+
+<!--last footer-->
+
+<div style="background-color:#171717;width:100%;height:40px;float:left;">
+
+   <div class="copyright">&copyVitalPartners.com.au</div>
+   <div class="privpoly">Contact | Terms of Use | Privacy Policy | Disclaimer</div>
+   <div class="followus">FOLLOW US:</div>
+   <div class="followuslogos">
+    <img src="images/icon10.png" style=""/>
+    <img src="images/icon11.png" style=""/>
+    <img src="images/icon12.png" style=""/>
+    <img src="images/icon13.png" style=""/>
+    <img src="images/icon14.png" style=""/>
+   </div>
+</div>
+ 
